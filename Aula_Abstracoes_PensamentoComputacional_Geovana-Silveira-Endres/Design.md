@@ -28,7 +28,7 @@ O MedSync foi desenvolvido para solucionar esses problemas através da automaç�
 
 Para facilitar o desenvolvimento da solução, o sistema foi dividido em módulos independentes.
 
-### 👤 Módulo de Usuários
+### Módulo de Usuários
 Responsável por:
 - login;
 - autenticação;
@@ -36,35 +36,35 @@ Responsável por:
 - cadastro de médicos;
 - permissões de acesso.
 
----
 
-### 📅 Módulo de Consultas
+
+### Módulo de Consultas
 Responsável por:
 - agendamento;
 - remarcação;
 - cancelamento;
 - verificação de horários disponíveis.
 
----
 
-### 🩺 Módulo Médico
+
+### Módulo Médico
 Responsável por:
 - prontuários digitais;
 - prescrições;
 - exames;
 - histórico clínico.
 
----
 
-### 🤖 Módulo Inteligente
+
+### Módulo Inteligente
 Responsável por:
 - chatbot;
 - notificações automáticas;
 - suporte virtual.
 
----
 
-### 📊 Módulo Administrativo
+
+### Módulo Administrativo
 Responsável por:
 - relatórios;
 - estatísticas;
@@ -130,12 +130,12 @@ Exemplo:
 - cadastro de exames;
 - geração de relatórios.
 
----
+
 
 ### Nível 2 — Representação Intermediária
 Representação simplificada através de fluxogramas contendo apenas as principais etapas do sistema.
 
----
+
 
 ### Nível 3 — Abstração Computacional
 Representação lógica do funcionamento do sistema através de pseudocódigo.
