@@ -1,16 +1,21 @@
 # Algoritmo – Controle de Acesso de Alunos em Sala
 
+Estudante: Geovana Silveira Endres
+
+RGM: 38193248
+
 # Objetivo
 
 Organizar o processo de entrada dos alunos na sala de aula de forma lógica e sistemática, verificando se cada aluno está presente na lista oficial da turma.
 
-Pseudocódigo
-INÍCIO
+# Pseudocódigo
 
-Exibir mensagem:
-"Sistema de Controle de Acesso iniciado"
+    INÍCIO
 
-Enquanto houver alunos na fila faça
+    Exibir mensagem:
+    "Sistema de Controle de Acesso iniciado"
+
+    Enquanto houver alunos na fila faça
 
     Ler nome do aluno
 
@@ -42,43 +47,48 @@ Enquanto houver alunos na fila faça
     Exibir mensagem:
     "Próximo aluno da fila"
 
-FIM ENQUANTO
+    FIM ENQUANTO
 
-Exibir mensagem:
-"Todos os alunos foram verificados"
+    Exibir mensagem:
+    "Todos os alunos foram verificados"
 
-FIM
+    FIM
 
 
-Explicação da Lógica Utilizada
+# Explicação da Lógica Utilizada
 
 O algoritmo foi desenvolvido utilizando estruturas de decisão e repetição para organizar o controle de entrada dos alunos.
 
-Estrutura de Repetição
+# Estrutura de Repetição
 
 Foi utilizado o comando “Enquanto” para garantir que todos os alunos presentes na fila fossem verificados individualmente.
 
-Estrutura Condicional
+# Estrutura Condicional
 
 Foi utilizada a estrutura “Se-Então-Senão” para decidir se o aluno teria acesso permitido ou negado.
 
-Se o nome estiver na lista oficial:
-a entrada é autorizada;
-a presença é registrada.
-Caso contrário:
-o sistema exibe uma mensagem de erro;
-a entrada é bloqueada;
-o aluno é encaminhado para conferência manual.
-Aplicação do Pensamento Computacional
+- Se o nome estiver na lista oficial:
+    - a entrada é autorizada;
+    - a presença é registrada.
+
+- Caso contrário:
+    - o sistema exibe uma mensagem de erro;
+    - a entrada é bloqueada;
+    - o aluno é encaminhado para conferência manual.
+
+# Aplicação do Pensamento Computacional
 
 O algoritmo utiliza conceitos do pensamento computacional, como:
 
-Decomposição:
+- Decomposição:
 divisão do problema em etapas menores.
-Abstração:
+
+- Abstração:
 foco apenas nas informações necessárias para o controle de acesso.
-Algoritmo:
+
+- Algoritmo:
 criação de uma sequência lógica de instruções para resolver o problema.
-Conclusão
+
+# Conclusão
 
 A atividade demonstrou como o pensamento lógico e algorítmico pode ser aplicado em situações do cotidiano. A utilização de estruturas condicionais e de repetição permitiu criar um processo organizado, eficiente e de fácil execução para o controle de acesso dos alunos.
