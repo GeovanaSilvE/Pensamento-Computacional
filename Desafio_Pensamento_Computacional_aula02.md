@@ -1,9 +1,9 @@
-#Desafio da Aula 1 — A Mão na Massa
-##Problema escolhido:
+# Desafio da Aula 1 — A Mão na Massa
+## Problema escolhido:
 
-###📌Internet lenta em casa.
+### 📌Internet lenta em casa.
 
-##1.Decomposição
+## 1.Decomposição
 
 O que pode causar a internet lenta?
 - Muitas pessoas usando ao mesmo tempo
@@ -15,7 +15,7 @@ O que pode causar a internet lenta?
 - Distância do roteador
 - Excesso de aplicativos abertos
 
-##2.Abstração
+## 2.Abstração
 
 O que não importa tanto?
 - Cor do roteador
@@ -27,7 +27,7 @@ Qual é a essência do problema?
 
 📌A internet fica lenta porque existem muitos acessos e o sinal/distribuição não está eficiente.
 
-##Possível solução
+## Possível solução
 
 1. Reiniciar o roteador
 2. Reduzir aparelhos conectados
