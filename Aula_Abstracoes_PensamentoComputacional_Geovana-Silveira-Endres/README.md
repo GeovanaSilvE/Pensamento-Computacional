@@ -54,15 +54,11 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
   - Login administrativo;
   - Controle de permissões.
 
----
-
 - Agendamento de Consultas
   - Marcação de consultas;
   - Remarcação;
   - Cancelamento;
   - Controle de horários disponíveis.
-
----
 
 - Prontuário Digital
   - Histórico médico;
@@ -70,14 +66,10 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
   - Prescrições;
   - Resultados de exames.
 
----
-
 - Assistente Virtual
   - Atendimento automatizado;
   - Respostas rápidas;
   - Encaminhamento para suporte humano.
-
----
 
 - Dashboard Administrativo
   - Indicadores hospitalares;
