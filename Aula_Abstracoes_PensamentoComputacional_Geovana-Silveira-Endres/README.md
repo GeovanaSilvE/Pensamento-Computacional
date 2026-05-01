@@ -46,43 +46,43 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ---
 
-# ⚙️ Principais Funcionalidades
+## ⚙️ Principais Funcionalidades
 
-## Gestão de Usuários
-- Cadastro de pacientes;
-- Cadastro de médicos;
-- Login administrativo;
-- Controle de permissões.
-
----
-
-## Agendamento de Consultas
-- Marcação de consultas;
-- Remarcação;
-- Cancelamento;
-- Controle de horários disponíveis.
+- Gestão de Usuários
+  - Cadastro de pacientes;
+  - Cadastro de médicos;
+  - Login administrativo;
+  - Controle de permissões.
 
 ---
 
-## Prontuário Digital
-- Histórico médico;
-- Registro de consultas;
-- Prescrições;
-- Resultados de exames.
+- Agendamento de Consultas
+  - Marcação de consultas;
+  - Remarcação;
+  - Cancelamento;
+  - Controle de horários disponíveis.
 
 ---
 
-## Assistente Virtual
-- Atendimento automatizado;
-- Respostas rápidas;
-- Encaminhamento para suporte humano.
+- Prontuário Digital
+  - Histórico médico;
+  - Registro de consultas;
+  - Prescrições;
+  - Resultados de exames.
 
 ---
 
-## Dashboard Administrativo
-- Indicadores hospitalares;
-- Controle de atendimentos;
-- Relatórios organizacionais.
+- Assistente Virtual
+  - Atendimento automatizado;
+  - Respostas rápidas;
+  - Encaminhamento para suporte humano.
+
+---
+
+- Dashboard Administrativo
+  - Indicadores hospitalares;
+  - Controle de atendimentos;
+  - Relatórios organizacionais.
 
 ---
 
