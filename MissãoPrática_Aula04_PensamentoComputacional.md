@@ -6,13 +6,14 @@ Problema escolhido:
 1. Decomposição
 
 Pequenos problemas envolvidos:
--Muitas contas diferentes
--Senhas difíceis de lembrar
--Uso de senhas diferentes em cada aplicativo
--Anotar senha em lugares inseguros
--Troca frequente de senha
--Bloqueio da conta após erros
--Recuperação de senha demorada
+
+- Muitas contas diferentes
+- Senhas difíceis de lembrar
+- Uso de senhas diferentes em cada aplicativo
+- Anotar senha em lugares inseguros
+- Troca frequente de senha
+- Bloqueio da conta após erros
+- Recuperação de senha demorada
 
 2. Identificação de padrões
 
