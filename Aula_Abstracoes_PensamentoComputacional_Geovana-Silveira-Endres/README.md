@@ -98,7 +98,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 3. Abstração
 
-  Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
+    Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
 
 4. Algoritmos
   O sistema utiliza lógica computacional para:
