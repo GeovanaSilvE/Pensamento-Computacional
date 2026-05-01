@@ -116,12 +116,12 @@ O sistema utiliza lógica computacional para:
 
 ### Organização dos Módulos
 
-O sistema possui diversas funcionalidades integradas, como:
-  - pacientes;
-  - médicos;
-  - consultas;
-  - exames;
-  - relatórios.
+  O sistema possui diversas funcionalidades integradas, como:
+    - pacientes;
+    - médicos;
+    - consultas;
+    - exames;
+    - relatórios.
 
 - Solução:
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
