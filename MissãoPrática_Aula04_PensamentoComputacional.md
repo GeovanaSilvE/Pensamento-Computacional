@@ -3,7 +3,7 @@ Problema escolhido:
 
 📌 Esquecer senhas de aplicativos e contas.
 
-1. Decomposição
+1.Decomposição
 
 Pequenos problemas envolvidos:
 
@@ -15,7 +15,7 @@ Pequenos problemas envolvidos:
 - Bloqueio da conta após erros
 - Recuperação de senha demorada
 
-2. Identificação de padrões
+2.Identificação de padrões
 
 - Usuário esquece senhas mais complexas
 - Muitas pessoas reutilizam a mesma senha
@@ -23,7 +23,7 @@ Pequenos problemas envolvidos:
 - Contas são bloqueadas após várias tentativas
 - Sempre que a senha muda, aumenta a chance de esquecimento
 
-3. Abstração
+3.Abstração
 
 Ignorados:
 - Cor do aplicativo
@@ -35,7 +35,7 @@ Essencial:
 
 📌Guardar e acessar senhas de forma segura e fácil.
 
-4. Algoritmo da solução
+4.Algoritmo da solução
 
 1. Criar uma senha forte e fácil de lembrar
 2. Utilizar um gerenciador de senhas
