@@ -97,6 +97,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
     - geração de relatórios.
 
 3. Abstração
+
   Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
 
 4. Algoritmos
@@ -108,38 +109,32 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ---
 
-# ⚠️ Desafios Encontrados
+## ⚠️ Desafios Encontrados
 
-## Organização dos Módulos
-O sistema possui diversas funcionalidades integradas, como:
-- pacientes;
-- médicos;
-- consultas;
-- exames;
-- relatórios.
+- Organização dos Módulos
+  O sistema possui diversas funcionalidades integradas, como:
+    - pacientes;
+    - médicos;
+    - consultas;
+    - exames;
+    - relatórios.
 
 ### Solução
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
----
-
-## Centralização das Informações
+- Centralização das Informações
 Hospitais geram muitos dados simultaneamente.
 
 ### Solução
 Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
----
-
-## Controle de Agendamentos
+- Controle de Agendamentos
 Evitar conflitos de horários médicos.
 
 ### Solução
 Criação de lógica para verificação automática de horários disponíveis.
 
----
-
-## Segurança de Dados
+- Segurança de Dados
 Informações médicas são altamente sensíveis.
 
 ### Solução
