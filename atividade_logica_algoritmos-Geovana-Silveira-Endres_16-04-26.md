@@ -5,8 +5,7 @@
 Organizar o processo de entrada dos alunos na sala de aula de forma lógica e sistemática, verificando se cada aluno está presente na lista oficial da turma.
 
 Pseudocódigo
-
-''' INÍCIO
+INÍCIO
 
 Exibir mensagem:
 "Sistema de Controle de Acesso iniciado"
@@ -49,7 +48,7 @@ Exibir mensagem:
 "Todos os alunos foram verificados"
 
 FIM
-'''
+
 
 Explicação da Lógica Utilizada
 
