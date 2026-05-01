@@ -98,7 +98,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 3. Abstração
 
-    Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
+    - Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
 
 4. Algoritmos
   O sistema utiliza lógica computacional para:
@@ -111,33 +111,33 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ## ⚠️ Desafios Encontrados
 
-- Organização dos Módulos
-  O sistema possui diversas funcionalidades integradas, como:
+### Organização dos Módulos
+- O sistema possui diversas funcionalidades integradas, como:
     - pacientes;
     - médicos;
     - consultas;
     - exames;
     - relatórios.
 
-### Solução
+- Solução:
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
-- Centralização das Informações
+### Centralização das Informações
 Hospitais geram muitos dados simultaneamente.
 
-### Solução
+- Solução:
 Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
-- Controle de Agendamentos
+### Controle de Agendamentos
 Evitar conflitos de horários médicos.
 
-### Solução
+- Solução:
 Criação de lógica para verificação automática de horários disponíveis.
 
-- Segurança de Dados
+### Segurança de Dados
 Informações médicas são altamente sensíveis.
 
-### Solução
+- Solução:
 Aplicação de autenticação e controle de acesso ao sistema.
 
 ---
