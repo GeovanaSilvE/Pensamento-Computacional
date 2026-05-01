@@ -78,7 +78,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ---
 
-# 🧠 Conceitos de Pensamento Computacional Aplicados
+## 🧠 Pensamento Computacional Aplicado
 
 ## Decomposição
 O sistema foi dividido em módulos menores:
