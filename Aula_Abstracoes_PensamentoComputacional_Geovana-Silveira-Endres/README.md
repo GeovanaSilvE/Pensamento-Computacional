@@ -80,37 +80,33 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ## 🧠 Pensamento Computacional Aplicado
 
-## Decomposição
-O sistema foi dividido em módulos menores:
-- autenticação;
-- consultas;
-- pacientes;
-- prontuários;
-- relatórios;
-- chatbot.
+1. Decomposição
+  O sistema foi dividido em módulos menores:
+    - autenticação;
+    - consultas;
+    - pacientes;
+    - prontuários;
+    - relatórios;
+    - chatbot.
+
+2. Reconhecimento de Padrões
+  Hospitais seguem padrões repetitivos:
+    - cadastro;
+    - atendimento;
+    - armazenamento de informações;
+    - geração de relatórios.
+
+3. Abstração
+  Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
 
 ---
 
-## Reconhecimento de Padrões
-Hospitais seguem padrões repetitivos:
-- cadastro;
-- atendimento;
-- armazenamento de informações;
-- geração de relatórios.
-
----
-
-## Abstração
-Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
-
----
-
-## Algoritmos
-O sistema utiliza lógica computacional para:
-- validar acessos;
-- verificar horários;
-- registrar informações;
-- organizar consultas.
+4. Algoritmos
+  O sistema utiliza lógica computacional para:
+    - validar acessos;
+    - verificar horários;
+    - registrar informações;
+    - organizar consultas.
 
 ---
 
