@@ -1,7 +1,7 @@
-## Disciplina: Pensamento Computacional
-## Profa. Kadidja Valéria
-## Unidade III: Pensamento Computacional nas Universidades
-## Relatório – Aula 09/04/2026
+Disciplina: Pensamento Computacional
+Profa. Kadidja Valéria
+Unidade III: Pensamento Computacional nas Universidades
+Relatório – Aula 09/04/2026
 
 # Relatório – Aula 09/04/2026
 
@@ -34,8 +34,6 @@ Na aula foi discutido como a ciência da computação começou a ganhar espaço 
 **Descrição:** Utilização de sistemas acadêmicos para organização de matrículas, notas e atividades dos alunos.
 
 **Impacto:** Facilita o gerenciamento das informações, reduz erros e torna os processos mais rápidos e organizados.
-
----
 
 ### Aplicação 2
 
