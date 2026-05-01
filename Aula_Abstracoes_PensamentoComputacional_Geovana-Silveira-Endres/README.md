@@ -22,7 +22,7 @@ Os conceitos aplicados seguem os princípios apresentados na aula sobre abstraç
 
 ---
 
-# 🎯 Objetivos do Projeto
+## 🎯 Objetivos do Projeto
 
 - Demonstrar a aplicação do Pensamento Computacional;
 - Desenvolver uma solução digital em larga escala;
@@ -32,7 +32,7 @@ Os conceitos aplicados seguem os princípios apresentados na aula sobre abstraç
 
 ---
 
-# 💡 Descrição do Sistema
+## 💡 Sistema Proposto
 
 O MedSync é um sistema hospitalar inteligente responsável por:
 - cadastrar pacientes;
@@ -48,7 +48,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 # ⚙️ Principais Funcionalidades
 
-## 👤 Gestão de Usuários
+## Gestão de Usuários
 - Cadastro de pacientes;
 - Cadastro de médicos;
 - Login administrativo;
@@ -56,7 +56,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ---
 
-## 📅 Agendamento de Consultas
+## Agendamento de Consultas
 - Marcação de consultas;
 - Remarcação;
 - Cancelamento;
@@ -64,7 +64,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ---
 
-## 🩺 Prontuário Digital
+## Prontuário Digital
 - Histórico médico;
 - Registro de consultas;
 - Prescrições;
@@ -72,14 +72,14 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 ---
 
-## 🤖 Assistente Virtual
+## Assistente Virtual
 - Atendimento automatizado;
 - Respostas rápidas;
 - Encaminhamento para suporte humano.
 
 ---
 
-## 📊 Dashboard Administrativo
+## Dashboard Administrativo
 - Indicadores hospitalares;
 - Controle de atendimentos;
 - Relatórios organizacionais.
@@ -88,7 +88,7 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 # 🧠 Conceitos de Pensamento Computacional Aplicados
 
-## 🔹 Decomposição
+## Decomposição
 O sistema foi dividido em módulos menores:
 - autenticação;
 - consultas;
@@ -99,7 +99,7 @@ O sistema foi dividido em módulos menores:
 
 ---
 
-## 🔹 Reconhecimento de Padrões
+## Reconhecimento de Padrões
 Hospitais seguem padrões repetitivos:
 - cadastro;
 - atendimento;
@@ -108,12 +108,12 @@ Hospitais seguem padrões repetitivos:
 
 ---
 
-## 🔹 Abstração
+## Abstração
 Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
 
 ---
 
-## 🔹 Algoritmos
+## Algoritmos
 O sistema utiliza lógica computacional para:
 - validar acessos;
 - verificar horários;
@@ -124,7 +124,7 @@ O sistema utiliza lógica computacional para:
 
 # ⚠️ Desafios Encontrados
 
-## 🔹 Organização dos Módulos
+## Organização dos Módulos
 O sistema possui diversas funcionalidades integradas, como:
 - pacientes;
 - médicos;
@@ -132,31 +132,31 @@ O sistema possui diversas funcionalidades integradas, como:
 - exames;
 - relatórios.
 
-### ✅ Solução
+### Solução
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
 ---
 
-## 🔹 Centralização das Informações
+## Centralização das Informações
 Hospitais geram muitos dados simultaneamente.
 
-### ✅ Solução
+### Solução
 Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
 ---
 
-## 🔹 Controle de Agendamentos
+## Controle de Agendamentos
 Evitar conflitos de horários médicos.
 
-### ✅ Solução
+### Solução
 Criação de lógica para verificação automática de horários disponíveis.
 
 ---
 
-## 🔹 Segurança de Dados
+## Segurança de Dados
 Informações médicas são altamente sensíveis.
 
-### ✅ Solução
+### Solução
 Aplicação de autenticação e controle de acesso ao sistema.
 
 ---
