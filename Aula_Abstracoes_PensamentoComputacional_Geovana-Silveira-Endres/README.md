@@ -116,14 +116,15 @@ O sistema utiliza lógica computacional para:
 
 ### Organização dos Módulos
 
-  O sistema possui diversas funcionalidades integradas, como:
-    - pacientes;
-    - médicos;
-    - consultas;
-    - exames;
-    - relatórios.
+O sistema possui diversas funcionalidades integradas, como:
+  - pacientes;
+  - médicos;
+  - consultas;
+  - exames;
+  - relatórios.
 
-- Solução:
+Solução:
+
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
 
@@ -131,7 +132,8 @@ Foi utilizada decomposição para dividir o sistema em módulos menores e organi
 
 Hospitais geram muitos dados simultaneamente.
 
-- Solução:
+Solução:
+
 Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
 
@@ -139,7 +141,8 @@ Foi proposto um banco de dados centralizado para armazenamento seguro e organiza
 
 Evitar conflitos de horários médicos.
 
-- Solução:
+Solução:
+
 Criação de lógica para verificação automática de horários disponíveis.
 
 
@@ -147,7 +150,8 @@ Criação de lógica para verificação automática de horários disponíveis.
 
 Informações médicas são altamente sensíveis.
 
-- Solução:
+Solução:
+
 Aplicação de autenticação e controle de acesso ao sistema.
 
 ---
