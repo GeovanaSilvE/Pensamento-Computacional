@@ -81,7 +81,8 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 ## 🧠 Pensamento Computacional Aplicado
 
 1. Decomposição
-  O sistema foi dividido em módulos menores:
+
+O sistema foi dividido em módulos menores:
     - autenticação;
     - consultas;
     - pacientes;
@@ -90,7 +91,8 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
     - chatbot.
 
 2. Reconhecimento de Padrões
-  Hospitais seguem padrões repetitivos:
+
+Hospitais seguem padrões repetitivos:
     - cadastro;
     - atendimento;
     - armazenamento de informações;
@@ -98,10 +100,11 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 
 3. Abstração
 
-    - Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
+Detalhes desnecessários foram removidos para focar apenas nos processos essenciais do sistema.
 
 4. Algoritmos
-  O sistema utiliza lógica computacional para:
+
+O sistema utiliza lógica computacional para:
     - validar acessos;
     - verificar horários;
     - registrar informações;
@@ -112,7 +115,8 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 ## ⚠️ Desafios Encontrados
 
 ### Organização dos Módulos
-- O sistema possui diversas funcionalidades integradas, como:
+
+O sistema possui diversas funcionalidades integradas, como:
     - pacientes;
     - médicos;
     - consultas;
@@ -122,19 +126,28 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 - Solução:
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
+---
+
 ### Centralização das Informações
+
 Hospitais geram muitos dados simultaneamente.
 
 - Solução:
 Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
+---
+
 ### Controle de Agendamentos
+
 Evitar conflitos de horários médicos.
 
 - Solução:
 Criação de lógica para verificação automática de horários disponíveis.
 
+---
+
 ### Segurança de Dados
+
 Informações médicas são altamente sensíveis.
 
 - Solução:
