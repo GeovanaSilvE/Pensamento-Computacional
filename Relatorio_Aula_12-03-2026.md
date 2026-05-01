@@ -1,6 +1,9 @@
 Disciplina: Pensamento Computacional
+
 Profa. Kadidja Valéria
+
 Unidade III: Pensamento Computacional nas Universidades
+
 Relatório – Aula 09/04/2026
 
 # Relatório – Aula 09/04/2026
@@ -29,13 +32,13 @@ Na aula foi discutido como a ciência da computação começou a ganhar espaço 
 
 ## 4. Atividade Prática – Aplicações
 
-### Aplicação 1
+#### Aplicação 1
 
 **Descrição:** Utilização de sistemas acadêmicos para organização de matrículas, notas e atividades dos alunos.
 
 **Impacto:** Facilita o gerenciamento das informações, reduz erros e torna os processos mais rápidos e organizados.
 
-### Aplicação 2
+#### Aplicação 2
 
 **Descrição:** Uso do pensamento computacional em projetos de desenvolvimento de software e análise de dados dentro das universidades.
 
