@@ -83,20 +83,20 @@ O sistema centraliza todas as informações em uma única plataforma digital, pe
 1. Decomposição
 
 O sistema foi dividido em módulos menores:
-    - autenticação;
-    - consultas;
-    - pacientes;
-    - prontuários;
-    - relatórios;
-    - chatbot.
+  - autenticação;
+  - consultas;
+  - pacientes;
+  - prontuários;
+  - relatórios;
+  - chatbot.
 
 2. Reconhecimento de Padrões
 
 Hospitais seguem padrões repetitivos:
-    - cadastro;
-    - atendimento;
-    - armazenamento de informações;
-    - geração de relatórios.
+  - cadastro;
+  - atendimento;
+  - armazenamento de informações;
+  - geração de relatórios.
 
 3. Abstração
 
@@ -105,10 +105,10 @@ Detalhes desnecessários foram removidos para focar apenas nos processos essenci
 4. Algoritmos
 
 O sistema utiliza lógica computacional para:
-    - validar acessos;
-    - verificar horários;
-    - registrar informações;
-    - organizar consultas.
+  - validar acessos;
+  - verificar horários;
+  - registrar informações;
+  - organizar consultas.
 
 ---
 
@@ -117,16 +117,15 @@ O sistema utiliza lógica computacional para:
 ### Organização dos Módulos
 
 O sistema possui diversas funcionalidades integradas, como:
-    - pacientes;
-    - médicos;
-    - consultas;
-    - exames;
-    - relatórios.
+  - pacientes;
+  - médicos;
+  - consultas;
+  - exames;
+  - relatórios.
 
 - Solução:
 Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
----
 
 ### Centralização das Informações
 
@@ -135,7 +134,6 @@ Hospitais geram muitos dados simultaneamente.
 - Solução:
 Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
----
 
 ### Controle de Agendamentos
 
@@ -144,7 +142,6 @@ Evitar conflitos de horários médicos.
 - Solução:
 Criação de lógica para verificação automática de horários disponíveis.
 
----
 
 ### Segurança de Dados
 
