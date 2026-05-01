@@ -123,36 +123,28 @@ O sistema possui diversas funcionalidades integradas, como:
   - exames;
   - relatórios.
 
-Solução:
-
-Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
+Solução: Foi utilizada decomposição para dividir o sistema em módulos menores e organizados.
 
 
 ### Centralização das Informações
 
 Hospitais geram muitos dados simultaneamente.
 
-Solução:
-
-Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
+Solução: Foi proposto um banco de dados centralizado para armazenamento seguro e organizado.
 
 
 ### Controle de Agendamentos
 
 Evitar conflitos de horários médicos.
 
-Solução:
-
-Criação de lógica para verificação automática de horários disponíveis.
+Solução: Criação de lógica para verificação automática de horários disponíveis.
 
 
 ### Segurança de Dados
 
 Informações médicas são altamente sensíveis.
 
-Solução:
-
-Aplicação de autenticação e controle de acesso ao sistema.
+Solução: Aplicação de autenticação e controle de acesso ao sistema.
 
 ---
 
