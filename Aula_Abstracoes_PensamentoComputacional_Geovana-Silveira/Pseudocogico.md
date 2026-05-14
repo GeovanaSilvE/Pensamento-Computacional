@@ -1,94 +1,115 @@
-# Algoritmo Pedido De Comida
+# Nível 3 — Abstração Computacional (Pseudocódigo)
+
+```plaintext
+ALGORITMO Sistema_Pedido_Delivery
 
 INÍCIO
 
-    // Verificar conexão com internet
+    // Verificação de conexão
     SE internet_disponivel = FALSO ENTÃO
-        EXIBIR "Sem conexão com a internet."
-        ENCERRAR
+        EXIBIR "Erro: conexão com a internet indisponível."
+        ENCERRAR_ALGORITMO
     FIMSE
 
-    // Abrir aplicativo
+
+    // Inicialização do sistema
     ABRIR aplicativo_delivery
 
-    // Realizar login
-    FAZER login
+    REALIZAR login_usuario
 
+
+    // Validação de acesso
     SE login_valido = FALSO ENTÃO
-        EXIBIR "Erro ao realizar login."
-        ENCERRAR
+        EXIBIR "Erro ao autenticar usuário."
+        ENCERRAR_ALGORITMO
     FIMSE
 
-    // Buscar restaurantes
+
+    // Consulta de restaurantes
     LISTAR restaurantes_disponiveis
 
-    // Selecionar restaurante
-    restaurante ← ESCOLHER restaurante
+    restaurante_selecionado ← ESCOLHER restaurante
 
-    // Visualizar cardápio
-    MOSTRAR cardapio(restaurante)
 
-    // Inicializar carrinho
-    carrinho ← vazio
+    // Exibição do cardápio
+    MOSTRAR cardapio(restaurante_selecionado)
 
+
+    // Inicialização do carrinho
+    carrinho ← VAZIO
+
+
+    // Processo de seleção de produtos
     REPITA
 
-        // Selecionar produto
-        produto ← ESCOLHER produto
+        produto ← ESCOLHER item_cardapio
 
-        // Selecionar quantidade
-        quantidade ← INFORMAR quantidade
+        quantidade ← INFORMAR quantidade_desejada
 
-        // Adicionar ao carrinho
         ADICIONAR produto, quantidade AO carrinho
 
-        // Perguntar se deseja continuar
-        EXIBIR "Deseja adicionar mais itens?"
-        resposta ← LER resposta
+        EXIBIR "Deseja adicionar mais itens ao pedido?"
+        resposta ← LER resposta_usuario
 
-    ATÉ resposta = "não"
+    ATÉ resposta = "NÃO"
 
-    // Verificar carrinho
-    SE carrinho = vazio ENTÃO
-        EXIBIR "Carrinho vazio."
-        ENCERRAR
+
+    // Validação do carrinho
+    SE carrinho = VAZIO ENTÃO
+        EXIBIR "Nenhum item selecionado."
+        ENCERRAR_ALGORITMO
     FIMSE
 
-    // Exibir resumo do pedido
-    MOSTRAR resumo(carrinho)
 
-    // Escolher forma de pagamento
-    pagamento ← ESCOLHER forma_pagamento
+    // Resumo do pedido
+    MOSTRAR resumo_pedido(carrinho)
 
-    // Validar pagamento
+
+    // Seleção de pagamento
+    metodo_pagamento ← ESCOLHER forma_pagamento
+
+
+    // Validação financeira
     SE pagamento_aprovado = FALSO ENTÃO
-        EXIBIR "Pagamento recusado."
-        ENCERRAR
+        EXIBIR "Pagamento não autorizado."
+        ENCERRAR_ALGORITMO
     FIMSE
 
-    // Confirmar pedido
+
+    // Confirmação do pedido
     CONFIRMAR pedido
 
-    // Enviar pedido ao restaurante
-    ENVIAR pedido
 
-    // Verificar aceite do restaurante
+    // Envio ao restaurante
+    ENVIAR pedido_para_restaurante
+
+
+    // Retorno do restaurante
     SE restaurante_aceitou = FALSO ENTÃO
-        EXIBIR "Pedido cancelado pelo restaurante."
-        ENCERRAR
+        EXIBIR "Pedido recusado pelo restaurante."
+        CANCELAR pedido
+        ENCERRAR_ALGORITMO
     FIMSE
 
-    // Acompanhar entrega
+
+    // Acompanhamento da entrega
     ENQUANTO pedido_entregue = FALSO FAÇA
+
         MOSTRAR status_entrega
+
     FIMENQUANTO
+
 
     // Finalização
     EXIBIR "Pedido entregue com sucesso."
 
-    // Avaliação
-    avaliacao ← INFORMAR nota_avaliacao
 
-    SALVAR avaliacao
+    // Avaliação do usuário
+    nota_avaliacao ← INFORMAR nota
+
+    SALVAR avaliacao_usuario
+
 
 FIM
+```
+
