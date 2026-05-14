@@ -1,6 +1,6 @@
-# ALGORITMO Pedido_De_Comida
+# Algoritmo Pedido De Comida
 
-''' INÍCIO
+INÍCIO
 
     // Verificar conexão com internet
     SE internet_disponivel = FALSO ENTÃO
